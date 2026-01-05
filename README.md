@@ -55,27 +55,6 @@ Final summaries are merged into a detailed output
 User can view or export the summary
 
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/chethankiruvaase/pdfsummarizer.git
-cd pdfsummarizer
-
-2️⃣ Create Virtual Environment
-python -m venv venv
-venv\Scripts\activate   # Windows
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Run Server
-python manage.py migrate
-python manage.py runserver
-
-
-Open browser:
-
-http://127.0.0.1:8000/
-
 🐳 Docker Usage
 docker build -t pdfsummarizer .
 docker run -p 8000:8000 pdfsummarizer
